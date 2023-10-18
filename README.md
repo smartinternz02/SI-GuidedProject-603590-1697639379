@@ -5,6 +5,9 @@
 PROJECT TITLE:
 **Online Shoppers Intentions Using ML**
 
+SKILLS REQUIRED:
+CNN, ML, WEB APP FLASK
+
 PROJECT DESCRIPTION:
 Online shopping is the activity or action of buying products or services over the Internet. 
 It means going online, landing on a seller’s website, selecting something, and arranging for its delivery. 
