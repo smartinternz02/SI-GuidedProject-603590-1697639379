@@ -19,4 +19,4 @@ Here, We will be using classification algorithms such as Logistic Regression , R
 We will train and test the data with these algorithms. From this the best model is selected and saved in pkl format.
 
 IDEATION PHASE FILE IS UPLOADED ON 18TH OCTOBER 2023
-PROJECT DESIGN PHASE IS UPLOADED ON 23RD OCTOBER 2023
+/nPROJECT DESIGN PHASE IS UPLOADED ON 23RD OCTOBER 2023
