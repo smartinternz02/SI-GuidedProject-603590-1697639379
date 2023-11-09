@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Page</title>
+    <style>
+        body {
+            background-image: url('th.jpeg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            color: #fff; /* Set your desired text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for the header */
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-buttons {
+            display: flex;
+        }
+
+        .header-button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            background-color: #3498db; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .result-container {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1, h2, p {
+            color: #fff; /* Set your desired text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Header Text</h1>
+        <div class="header-buttons">
+            <a href="home.html" class="header-button">Home</a>
+            <a href="predict.html" class="header-button">Predict</a>
+            <a href="about.html" class="header-button">About</a>
+        </div>
+    </header>
+
+    <div class="result-container">
+        <h2>Prediction Result:</h2>
+        <p>{{ prediction_text }}</p>
+    </div>
+</body>
+</html>

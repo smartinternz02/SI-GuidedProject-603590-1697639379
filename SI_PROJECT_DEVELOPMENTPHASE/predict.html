@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+    <style>
+        body {
+            background-image: url('th.jpeg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff; /* Set your desired text color */
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the header */
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header-buttons {
+            display: flex;
+        }
+
+        .header-button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            background-color: #3498db; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for the form */
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            margin-top: 900px; /* Adjust as needed */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .submit-button {
+            background-color: #3498db; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Header Text</h1>
+        <div class="header-buttons">
+            <a href="home.html" class="header-button">Home</a>
+            <a href="predict.html" class="header-button">Predict</a>
+            <a href="about.html" class="header-button">About</a>
+        </div>
+    </header>
+
+    <form>
+        <!-- Add labels above each bar -->
+        <label for="bar1">Administrative</label>
+        <input type="text" id="bar1" name="bar1">
+
+        <label for="bar2">Informational</label>
+        <input type="text" id="bar2" name="bar2">
+
+        <label for="bar3">ProductRelated</label>
+        <input type="text" id="bar3" name="bar3">
+
+        <label for="bar4">PageValues</label>
+        <input type="text" id="bar4" name="bar4">
+
+        <label for="bar5">Month</label>
+        <input type="text" id="bar5" name="bar5">
+
+        <label for="bar6">Browser</label>
+        <input type="text" id="bar6" name="bar6">
+
+        <label for="bar7">Traffic Type</label>
+        <input type="text" id="bar7" name="bar7">
+
+        <label for="bar8">Weekend</label>
+        <input type="text" id="bar8" name="bar8">
+
+        <label for="bar9">Administrative_Duration</label>
+        <input type="text" id="bar9" name="bar9">
+
+        <label for="bar10">Informantional_Duration</label>
+        <input type="text" id="bar10" name="bar10">
+
+        <label for="bar11">ProductRelated_Duration</label>
+        <input type="text" id="bar11" name="bar11">
+
+        <label for="bar12">ExitRates</label>
+        <input type="text" id="bar12" name="bar12">
+
+        <label for="bar13">SpecialDay</label>
+        <input type="text" id="bar13" name="bar13">
+
+        <label for="bar14">OperatingSystems</label>
+        <input type="text" id="bar14" name="bar14">
+
+        <label for="bar15">Region</label>
+        <input type="text" id="bar15" name="bar15">
+
+        <label for="bar16">VistorType</label>
+        <input type="text" id="bar16" name="bar16">
+
+        <label for="bar17">BounceRates</label>
+        <input type="text" id="bar17" name="bar17">
+
+        <!-- Submit button -->
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</body>
+</html>
